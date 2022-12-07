@@ -38,8 +38,8 @@ if ($_POST['submit']) {
         echo "gekozen product en totaal prijs\n\nProduct: ", $product, "\n", "Aantal in winkelmand: ", $aantal, "\n", "Totaal prijs: ", $prijs_result;
         echo "</pre>";
 
-    } else{
-        echo "er mag geen een negatief aantal ingevoerd worden";
+    }else{
+        echo "er mag geen een negatief aantal ingevoerd worden of een aantal boven de 15";
     }
 
     /*
